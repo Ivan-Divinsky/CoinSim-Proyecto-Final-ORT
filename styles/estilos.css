@@ -1,0 +1,187 @@
+.navbarEdit {
+  padding: 4rem;
+}
+
+/* CARROUSEL */
+.imagenCarrousel {
+  width: 20vw;
+  height: 10vw;
+}
+
+.containerCarousel {
+  height: 15rem;
+}
+
+.logoNav img {
+  width: 75%;
+}
+
+.containerImagen {
+  border-radius: 1fr;
+}
+
+/* DETALLE.HTML */
+.nombreDetalle {
+  background-color: gold;
+}
+
+.nombreDetalle h1 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nombreDetalle h6 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: transparent;
+}
+
+.nombreDetalle h5 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: smaller;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: transparent;
+}
+
+.nombreDetalle:hover h1 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nombreDetalle:hover h6 {
+  padding-top: 3.5rem;
+  color: black;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.nombreDetalle:hover h5 {
+  padding-bottom: 3.5rem;
+  color: black;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.siglaDetalle {
+  background-color: #90b5ff;
+}
+
+.siglaDetalle h4 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.siglaDetalle h6 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: transparent;
+}
+
+.siglaDetalle h5 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: smaller;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: transparent;
+}
+
+.siglaDetalle:hover h3 {
+  display: block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.siglaDetalle:hover h6 {
+  padding-top: 3.5rem;
+  color: black;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.siglaDetalle:hover h5 {
+  padding-bottom: 3.5rem;
+  color: black;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.precioDetalle {
+  background-color: #6be086;
+}
+
+.precioDetalle h6 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: transparent;
+}
+
+.precioDetalle h3 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.precioDetalle h5 {
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: transparent;
+}
+
+.precioDetalle:hover h6 {
+  padding-top: 3.5rem;
+  color: black;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.precioDetalle:hover h3 {
+  display: block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.precioDetalle:hover h5 {
+  padding-bottom: 1;
+  color: black;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+/*# sourceMappingURL=estilos.css.map */
