@@ -22,6 +22,25 @@
     border-radius: 1fr;
 }
 
+/* Tabla Inicio */
+
+.bg-white {
+
+    tr {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        transition: 0.5s;
+    }
+
+    &:hover {
+        tr {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            transition: 0.5s;
+        }
+    }
+}
+
 /* DETALLE.HTML */
 
 .nombreDetalle {

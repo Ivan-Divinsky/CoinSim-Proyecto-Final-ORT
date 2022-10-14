@@ -20,6 +20,21 @@
   border-radius: 1fr;
 }
 
+/* Tabla Inicio */
+.bg-white tr {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.bg-white:hover tr {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 /* DETALLE.HTML */
 .nombreDetalle {
   background-color: gold;
