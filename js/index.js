@@ -4,11 +4,9 @@ async function loadIntoTable(url, table) {
   const response = await fetch(url);
   const data = await response.json();
   data.forEach((moneda) => {
-    
     table.innerHTML += createRow(moneda);
-    
   });
-  
+
 }
 
 function createRow(moneda) {
@@ -19,19 +17,18 @@ function createRow(moneda) {
   </td>
   <td class = "tablaPrincipal "> <img class = "imagenCryptoTabla" src = ${moneda.image}></td>
   <td class = "tablaPrincipal ">${ConvertidorNumeros(moneda.current_price)} $USD</td>
-  <td id = "porcentaje" class = "tablaPrincipal">${moneda.price_change_percentage_24h.toFixed(2)} %</td>
+  <td id = "porcentaje" class = "tablaPrincipal ${moneda.price_change_percentage_24h > 0 ? "positivo" : "negativo"}">${moneda.price_change_percentage_24h.toFixed(2)} %</td>
   <td class = "tablaPrincipal ">${ConvertidorNumeros(moneda.total_volume)} $USD</td>
   <td class = "tablaPrincipal ">${ConvertidorNumeros(moneda.market_cap)} $USD</td>
   </tr>`;
 
-  
+
 }
 
 /* ------------------------------------- */
 
 function redireccionar(moneda) {
   localStorage.setItem("MonedaElegida", moneda);
-  console.log(moneda)
   location.href = "http://127.0.0.1:5501/detalle.html";
 }
 
@@ -44,42 +41,7 @@ loadIntoTable(
 
 /* ------------------------------------- */
 
-/* function ChangeColor (moneda) {
-console.log(moneda)
-  if (moneda > 0) {
-    document.getElementById("MyElement").classList.remove('defaultt');
-    document.getElementById("MyElement").classList.add('positivo');
-  }
 
-  if (moneda < 0) {
-    document.getElementById("MyElement").classList.add('negativo');
-    document.getElementById("MyElement").classList.remove('defaultt');
-  }
-
-  if (moneda < 0) {
-    document.getElementById("MyElement").classList.add('negativo');
-    document.getElementById("MyElement").classList.remove('positivo');
-  }
-
-  if (moneda > 0) {
-    document.getElementById("MyElement").classList.add('positivo');
-    document.getElementById("MyElement").classList.remove('negativo');
-  }
-
-} */
-
- function ChangeColor (moneda) {
-const porcentaje = document.getElementById("porcentaje")
-
-  if (moneda > 0) {
-    porcentaje.setAttribute('color: green');
-  }
-
-  if (moneda < 0) {
-    porcentaje.setAttribute('color: red');
-  }
-console.log (moneda)
-}
 
 function ConvertidorNumeros(moneda) {
 
