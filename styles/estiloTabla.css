@@ -141,10 +141,11 @@ a {
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
-  color: inherit;
-  text-decoration: none; }
+  color: #007bff;
+  text-decoration: none;
+  cursor:pointer; }
   a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-    color: inherit;
+    color: #7700ff;
     text-decoration: none; }
   a:not([href]):not([tabindex]):focus {
     outline: 0; }

@@ -24,9 +24,14 @@
 
 /* Tabla Inicio */
 
+.tablaPrimaria {
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 320px;
+}
+/* 
 .bg-white {
-
-    tr {
         padding-top: 1rem;
         padding-bottom: 1rem;
         transition: 0.5s;
@@ -39,8 +44,7 @@
             transition: 0.5s;
         }
     }
-}
-
+ */
 /* DETALLE.HTML */
 
 .nombreDetalle {
@@ -122,8 +126,10 @@
         font-size: smaller;
         padding-top: 1rem;
         padding-bottom: 2.5rem;
-        transition: 0.5s;
-        color: transparent;
+        transition: 1s;
+        display: none;
+        max-width: 1200px;
+        padding-left: 340px;
     }
 
     &:hover {
@@ -142,7 +148,8 @@
         h5 {
             padding-bottom: 3.5rem;
             color: black;
-            transition: 0.5;
+            transition: 1s;
+            display: block;
         }
     }
 }
@@ -190,7 +197,7 @@
         }
 
         h5 {
-            padding-bottom: max($numbers: 1);
+            padding-bottom: 1rem;
             color: black;
             transition: 0.5;
         }
